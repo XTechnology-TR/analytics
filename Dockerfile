@@ -49,7 +49,7 @@ COPY rel rel
 RUN mix release plausible
 
 # Main Docker Image
-FROM alpine:3.13.3
+FROM alpine:3.21.0
 LABEL maintainer="tckb <tckb@tgrthi.me>"
 ENV LANG=C.UTF-8
 
